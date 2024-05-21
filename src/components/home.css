@@ -1,0 +1,24 @@
+table,
+th,
+td {
+  border: 1px solid #ffffff32;
+  padding: 8px;
+  margin: 0;
+}
+
+.row-center {
+  text-align: center;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
